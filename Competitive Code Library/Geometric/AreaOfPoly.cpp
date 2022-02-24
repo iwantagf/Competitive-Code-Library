@@ -44,7 +44,7 @@ void init() {
 
 void solve() {
     double area = 0;
-    FOR(i, 1, n - 1) area += Cross(b[i], b[i + 1]);
+    FOR(i, 1, n - 1) area += Cross(a[i], a[i + 1]);
     printf("%lf", area);
 }
 
